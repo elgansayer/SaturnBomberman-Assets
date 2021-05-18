@@ -1,0 +1,1 @@
+FOR %G IN (*.png) DO convert %G -transparent #c3c3c3 batch\%G

@@ -1,0 +1,8 @@
+map 1
+	bomb
+kickbomb
+power
+powerglovce
+skate
+skull
+eggs
