@@ -1,0 +1,1083 @@
+{
+	"textures": [
+		{
+			"image": "robin_hood.png",
+			"size": {
+				"w": 64,
+				"h": 680
+			},
+			"sprites": [
+				{
+					"filename": "hud/idle/hud_idle.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 8,
+						"y": 15,
+						"w": 15,
+						"h": 15
+					}
+				},
+				{
+					"filename": "hud/lose/hud_lose.png",
+					"region": {
+						"x": 21,
+						"y": 1,
+						"w": 20,
+						"h": 18
+					},
+					"margin": {
+						"x": 7,
+						"y": 15,
+						"w": 13,
+						"h": 15
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_4.png",
+					"region": {
+						"x": 43,
+						"y": 1,
+						"w": 20,
+						"h": 24
+					},
+					"margin": {
+						"x": 7,
+						"y": 9,
+						"w": 13,
+						"h": 9
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_6.png",
+					"region": {
+						"x": 1,
+						"y": 21,
+						"w": 24,
+						"h": 20
+					},
+					"margin": {
+						"x": 5,
+						"y": 13,
+						"w": 9,
+						"h": 13
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_7.png",
+					"region": {
+						"x": 27,
+						"y": 27,
+						"w": 26,
+						"h": 21
+					},
+					"margin": {
+						"x": 4,
+						"y": 12,
+						"w": 7,
+						"h": 12
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_5.png",
+					"region": {
+						"x": 1,
+						"y": 43,
+						"w": 22,
+						"h": 22
+					},
+					"margin": {
+						"x": 6,
+						"y": 11,
+						"w": 11,
+						"h": 11
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_8.png",
+					"region": {
+						"x": 25,
+						"y": 50,
+						"w": 26,
+						"h": 22
+					},
+					"margin": {
+						"x": 4,
+						"y": 11,
+						"w": 7,
+						"h": 11
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_3.png",
+					"region": {
+						"x": 1,
+						"y": 67,
+						"w": 18,
+						"h": 25
+					},
+					"margin": {
+						"x": 8,
+						"y": 8,
+						"w": 15,
+						"h": 8
+					}
+				},
+				{
+					"filename": "east/jump/jump.png",
+					"region": {
+						"x": 21,
+						"y": 74,
+						"w": 21,
+						"h": 26
+					},
+					"margin": {
+						"x": 5,
+						"y": 7,
+						"w": 12,
+						"h": 7
+					}
+				},
+				{
+					"filename": "north/ride_loss/ride_loss.png",
+					"region": {
+						"x": 44,
+						"y": 74,
+						"w": 18,
+						"h": 26
+					},
+					"margin": {
+						"x": 8,
+						"y": 7,
+						"w": 15,
+						"h": 7
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_2.png",
+					"region": {
+						"x": 1,
+						"y": 94,
+						"w": 18,
+						"h": 26
+					},
+					"margin": {
+						"x": 8,
+						"y": 7,
+						"w": 15,
+						"h": 7
+					}
+				},
+				{
+					"filename": "west/jump/jump.png",
+					"region": {
+						"x": 21,
+						"y": 102,
+						"w": 21,
+						"h": 26
+					},
+					"margin": {
+						"x": 8,
+						"y": 7,
+						"w": 12,
+						"h": 7
+					}
+				},
+				{
+					"filename": "north/jump/jump.png",
+					"region": {
+						"x": 44,
+						"y": 102,
+						"w": 18,
+						"h": 27
+					},
+					"margin": {
+						"x": 8,
+						"y": 6,
+						"w": 15,
+						"h": 6
+					}
+				},
+				{
+					"filename": "north/carrying/carry_walk_0.png",
+					"region": {
+						"x": 1,
+						"y": 122,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "east/carrying/carry_walk_0.png",
+					"region": {
+						"x": 21,
+						"y": 130,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 5,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "north/carrying/carry_walk_1.png",
+					"region": {
+						"x": 44,
+						"y": 131,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "north/carrying/carry_walk_2.png",
+					"region": {
+						"x": 1,
+						"y": 152,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "east/carrying/carry_walk_1.png",
+					"region": {
+						"x": 21,
+						"y": 159,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 5,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "north/ride/ride.png",
+					"region": {
+						"x": 44,
+						"y": 161,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "north/ride_win/ride_win.png",
+					"region": {
+						"x": 1,
+						"y": 182,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "east/carrying/carry_walk_2.png",
+					"region": {
+						"x": 21,
+						"y": 188,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 5,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "south/jump/jump.png",
+					"region": {
+						"x": 44,
+						"y": 191,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "south/ride/ride.png",
+					"region": {
+						"x": 1,
+						"y": 212,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "state/stunned/stunned_1.png",
+					"region": {
+						"x": 21,
+						"y": 217,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 5,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_1.png",
+					"region": {
+						"x": 44,
+						"y": 221,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "state/lose/lose_0.png",
+					"region": {
+						"x": 1,
+						"y": 242,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "state/stunned/stunned_3.png",
+					"region": {
+						"x": 21,
+						"y": 246,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 8,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "state/lose/lose_1.png",
+					"region": {
+						"x": 44,
+						"y": 251,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "state/lose/lose_2.png",
+					"region": {
+						"x": 1,
+						"y": 272,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "west/carrying/carry_walk_0.png",
+					"region": {
+						"x": 21,
+						"y": 275,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 8,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "state/stunned/stunned_0.png",
+					"region": {
+						"x": 44,
+						"y": 281,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 15,
+						"h": 5
+					}
+				},
+				{
+					"filename": "north/hold/hold.png",
+					"region": {
+						"x": 1,
+						"y": 302,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "west/carrying/carry_walk_1.png",
+					"region": {
+						"x": 21,
+						"y": 304,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 8,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "east/walk/walk_1.png",
+					"region": {
+						"x": 44,
+						"y": 311,
+						"w": 19,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 14,
+						"h": 4
+					}
+				},
+				{
+					"filename": "west/carrying/carry_walk_2.png",
+					"region": {
+						"x": 1,
+						"y": 333,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 8,
+						"y": 6,
+						"w": 12,
+						"h": 6
+					}
+				},
+				{
+					"filename": "north/walk/walk_0.png",
+					"region": {
+						"x": 24,
+						"y": 333,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "east/walk/walk_2.png",
+					"region": {
+						"x": 44,
+						"y": 342,
+						"w": 19,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 14,
+						"h": 4
+					}
+				},
+				{
+					"filename": "east/ride/ride.png",
+					"region": {
+						"x": 1,
+						"y": 362,
+						"w": 20,
+						"h": 28
+					},
+					"margin": {
+						"x": 7,
+						"y": 5,
+						"w": 13,
+						"h": 5
+					}
+				},
+				{
+					"filename": "north/walk/walk_1.png",
+					"region": {
+						"x": 23,
+						"y": 364,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "west/ride/ride.png",
+					"region": {
+						"x": 43,
+						"y": 373,
+						"w": 20,
+						"h": 28
+					},
+					"margin": {
+						"x": 7,
+						"y": 5,
+						"w": 13,
+						"h": 5
+					}
+				},
+				{
+					"filename": "east/hold/hold.png",
+					"region": {
+						"x": 1,
+						"y": 392,
+						"w": 20,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 13,
+						"h": 4
+					}
+				},
+				{
+					"filename": "north/walk/walk_2.png",
+					"region": {
+						"x": 23,
+						"y": 395,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "east/walk/walk_0.png",
+					"region": {
+						"x": 43,
+						"y": 403,
+						"w": 20,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 13,
+						"h": 4
+					}
+				},
+				{
+					"filename": "south/carrying/carry_walk_0.png",
+					"region": {
+						"x": 1,
+						"y": 423,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "south/carrying/carry_walk_1.png",
+					"region": {
+						"x": 21,
+						"y": 426,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/win/win_3.png",
+					"region": {
+						"x": 41,
+						"y": 434,
+						"w": 22,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 11,
+						"h": 5
+					}
+				},
+				{
+					"filename": "south/carrying/carry_walk_2.png",
+					"region": {
+						"x": 1,
+						"y": 454,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "south/hold/hold.png",
+					"region": {
+						"x": 21,
+						"y": 457,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "south/walk/walk_0.png",
+					"region": {
+						"x": 41,
+						"y": 464,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "south/walk/walk_1.png",
+					"region": {
+						"x": 1,
+						"y": 485,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "south/walk/walk_2.png",
+					"region": {
+						"x": 21,
+						"y": 488,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/defeat/defeat_0.png",
+					"region": {
+						"x": 41,
+						"y": 495,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_2.png",
+					"region": {
+						"x": 1,
+						"y": 516,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_3.png",
+					"region": {
+						"x": 1,
+						"y": 516,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_6.png",
+					"region": {
+						"x": 1,
+						"y": 516,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_7.png",
+					"region": {
+						"x": 1,
+						"y": 516,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_4.png",
+					"region": {
+						"x": 21,
+						"y": 519,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_5.png",
+					"region": {
+						"x": 21,
+						"y": 519,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_0.png",
+					"region": {
+						"x": 41,
+						"y": 526,
+						"w": 19,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 14,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/idle/idle_1.png",
+					"region": {
+						"x": 41,
+						"y": 526,
+						"w": 19,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 14,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/panic/panic_0.png",
+					"region": {
+						"x": 1,
+						"y": 547,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/panic/panic_1.png",
+					"region": {
+						"x": 21,
+						"y": 550,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/panic/panic_2.png",
+					"region": {
+						"x": 41,
+						"y": 557,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/stunned/stunned_2.png",
+					"region": {
+						"x": 1,
+						"y": 578,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/win/win_0.png",
+					"region": {
+						"x": 21,
+						"y": 581,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/win/win_2.png",
+					"region": {
+						"x": 41,
+						"y": 588,
+						"w": 18,
+						"h": 29
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 15,
+						"h": 4
+					}
+				},
+				{
+					"filename": "state/win/win_1.png",
+					"region": {
+						"x": 1,
+						"y": 612,
+						"w": 25,
+						"h": 29
+					},
+					"margin": {
+						"x": 4,
+						"y": 4,
+						"w": 8,
+						"h": 4
+					}
+				},
+				{
+					"filename": "west/hold/hold.png",
+					"region": {
+						"x": 28,
+						"y": 619,
+						"w": 20,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 13,
+						"h": 4
+					}
+				},
+				{
+					"filename": "west/walk/walk_0.png",
+					"region": {
+						"x": 1,
+						"y": 643,
+						"w": 20,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 13,
+						"h": 4
+					}
+				},
+				{
+					"filename": "west/walk/walk_1.png",
+					"region": {
+						"x": 23,
+						"y": 650,
+						"w": 19,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 14,
+						"h": 4
+					}
+				},
+				{
+					"filename": "west/walk/walk_2.png",
+					"region": {
+						"x": 44,
+						"y": 650,
+						"w": 19,
+						"h": 29
+					},
+					"margin": {
+						"x": 7,
+						"y": 4,
+						"w": 14,
+						"h": 4
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b091a9e9edae91000dacc4c44384f707:3e9530628c6b5f53edf0550aa3b815d8:0356c186df966d2340a1496223fadd10$"
+	}
+}

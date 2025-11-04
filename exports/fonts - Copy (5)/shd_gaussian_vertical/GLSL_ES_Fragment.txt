@@ -1,0 +1,62 @@
+precision mediump float;
+#define LOWPREC lowp
+// Uniforms look like they're shared between vertex and fragment shaders in GLSL, so we have to be careful to avoid name clashes
+
+uniform sampler2D gm_BaseTexture;
+
+uniform bool gm_PS_FogEnabled;
+uniform vec4 gm_FogColour;
+uniform bool gm_AlphaTestEnabled;
+uniform float gm_AlphaRefValue;
+
+void DoAlphaTest(vec4 SrcColour)
+{
+	if (gm_AlphaTestEnabled)
+	{
+		if (SrcColour.a <= gm_AlphaRefValue)
+		{
+			discard;
+		}
+	}
+}
+
+void DoFog(inout vec4 SrcColour, float fogval)
+{
+	if (gm_PS_FogEnabled)
+	{
+		SrcColour = mix(SrcColour, gm_FogColour, clamp(fogval, 0.0, 1.0)); 
+	}
+}
+
+#define _YY_GLSLES_ 1
+varying vec2 v_texcoord;
+
+uniform float time;
+uniform vec2 mouse_pos;
+uniform vec2 resolution;
+
+void main()
+{ 
+float blurSize = 1.4/resolution.y;
+
+   vec4 sum = vec4(0.0);
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y- 8.0*blurSize)) * 0.025;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y- 7.0*blurSize)) * 0.025;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y- 6.0*blurSize)) * 0.045;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y- 5.0*blurSize)) * 0.045;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y - 4.0*blurSize)) * 0.06;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y - 3.0*blurSize)) * 0.06;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y - 2.0*blurSize)) * 0.075;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y - blurSize)) * 0.075;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y)) * 0.16;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + blurSize)) * 0.075;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + 2.0*blurSize)) * 0.075;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + 3.0*blurSize)) * 0.06;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + 4.0*blurSize)) * 0.06;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + 5.0*blurSize)) * 0.045;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + 6.0*blurSize)) * 0.045;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + 7.0*blurSize)) * 0.025;
+   sum += texture2D(gm_BaseTexture, vec2(v_texcoord.x, v_texcoord.y + 8.0*blurSize)) * 0.025;
+   gl_FragColor = sum;
+}
+
