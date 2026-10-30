@@ -1,0 +1,1242 @@
+{
+  "schema_version": 1,
+  "scope": "Unmodified bundled fallback font files only; the original display font has separate build provenance.",
+  "reference_source_distribution": "Debian fonts-noto-core 20201225-2 and fonts-noto-cjk 1:20240730+repack1-1. When rebuilding from other directories, the actual file hashes and internal versions below identify the inputs.",
+  "font_file_count": 50,
+  "font_bytes": 27262588,
+  "cjk_face_indices": {
+    "ja": 0,
+    "ko": 1,
+    "zh_Hans": 2,
+    "zh_Hant": 3,
+    "zh_HK": 4
+  },
+  "fonts": [
+    {
+      "path": "fallbacks/NotoSans-Regular.ttf",
+      "bytes": 512672,
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans",
+          "style": "Regular",
+          "version": "Version 2.004; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2015 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 2840
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansArabic-Regular.ttf",
+      "bytes": 244072,
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Arabic",
+          "style": "Regular",
+          "version": "Version 2.005; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D arab -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2015-2020 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 1161
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansHebrew-Regular.ttf",
+      "bytes": 26892,
+      "sha256": "436900d5ad77d33e4234247f3076eaecd25b92b9bea0519514f684140e3566a7",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Hebrew",
+          "style": "Regular",
+          "version": "Version 3.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D hebr -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 145
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansArmenian-Regular.ttf",
+      "bytes": 30892,
+      "sha256": "9636c32c121f4fc1fc6963dfad60ea32c41889507118a46f83a818eacf40348e",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Armenian",
+          "style": "Regular",
+          "version": "Version 2.005; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D armn -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2015-2019 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 104
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansGeorgian-Regular.ttf",
+      "bytes": 53072,
+      "sha256": "ba75f2154fef9beac8439f94c631dc37ef9c708d32f9254bb019afdfa9aa3138",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Georgian",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D geor -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 186
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansEthiopic-Regular.ttf",
+      "bytes": 343168,
+      "sha256": "58bc43b062961b38ee45757d2e74e6a991a12011aa0399fb03004ac432e5c852",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Ethiopic",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D ethi -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2015 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 505
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansDevanagari-Regular.ttf",
+      "bytes": 229336,
+      "sha256": "79a470365ccb210fa3c7d8d8ff2e005ef9d983cfd067f735a0caf7e15070ca9f",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Devanagari",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D deva -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2015 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 272
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansBengali-Regular.ttf",
+      "bytes": 201964,
+      "sha256": "9bb35b3547829ecc42041b6017e87fd4c5f1da1edcd00f59171777050f346018",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Bengali",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D beng -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 173
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansGujarati-Regular.ttf",
+      "bytes": 205124,
+      "sha256": "4468a3a24516831874fb4a867b760a22257944584e478d32a97e3c4d4bfc6400",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Gujarati",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D gujr -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 164
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansGurmukhi-Regular.ttf",
+      "bytes": 52852,
+      "sha256": "1db960ff6f506a98f5b3ece78f54618388c6187e7edf8ceee5ab63389c0db3ab",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Gurmukhi",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D guru -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 154
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansOriya-Regular.ttf",
+      "bytes": 95800,
+      "sha256": "20751837a8cac9d0e610ffdf91c43d3391e2b267ca2cad07f6e3866798436369",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Oriya",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2019 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 150
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansTamil-Regular.ttf",
+      "bytes": 72608,
+      "sha256": "a7bb7f92f165479af2f0556c4fd669b74c5959f464f603e18389b532f4d07a71",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Tamil",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D taml -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 147
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansTelugu-Regular.ttf",
+      "bytes": 194732,
+      "sha256": "cb3165071121b1e80c55a041d0c1f79b3bbc68e4b0eab37b0d881958dfc3ed7a",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Telugu",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D telu -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 163
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansKannada-Regular.ttf",
+      "bytes": 152168,
+      "sha256": "892b841b0b87ca3c2702bdc78d3031c8220f53e8f5f496ec5e37ccf0ca03ddf7",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Kannada",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D knda -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2018 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 164
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansMalayalam-Regular.ttf",
+      "bytes": 110568,
+      "sha256": "5433f4a642b4325aa169a55c4c6b8d1c4a45c4e08bcd9cbe72888229709a8f2d",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Malayalam",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D mlym -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2018 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 187
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansSinhala-Regular.ttf",
+      "bytes": 307684,
+      "sha256": "31f83eec724a27779d1434afc84beabee239c0ff77dc8d04bee9f49c60b23fdd",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Sinhala",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D sinh -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2016 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 170
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansThai-Regular.ttf",
+      "bytes": 37744,
+      "sha256": "dfbd5ed0f1e68c3cbc51aa08f646d1ab0e68e7c4ceab70a69e465225ff701f93",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Thai",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D thai -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2016 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 101
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansLao-Regular.ttf",
+      "bytes": 31136,
+      "sha256": "6c3de7db369e85cba20255d161eeeb3d934ea3c4c51e2574c2ddcce79a25025c",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Lao",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D lao -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 76
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansKhmer-Regular.ttf",
+      "bytes": 113376,
+      "sha256": "bc9a5e2afcee249849e409aabe6e22330c479b878ea3e59bf5e7c84482d7ee53",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Khmer",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D khmr -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2016 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 175
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansMyanmar-Regular.ttf",
+      "bytes": 196608,
+      "sha256": "3fe9a4babc12081adc979e0313433e6ec85bb3ad069681c23ee8d8ea8b91332b",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Myanmar",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D mymr -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2015 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 239
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansMongolian-Regular.ttf",
+      "bytes": 242252,
+      "sha256": "601afb9f08fbbc39f0cf72cb7e11079ada6fa3feed1fadca8e6e5095e7957687",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Mongolian",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D mong -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2018 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 224
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansSyriac-Regular.ttf",
+      "bytes": 233508,
+      "sha256": "49917b4472e91dfb37291ef4f4821957f4225edaddb6100b1d8736df3910b237",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Syriac",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2018 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 150
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansThaana-Regular.ttf",
+      "bytes": 18728,
+      "sha256": "241b4be4717d495a72cf7eb8e69891e63a6eb1cc18d98fa357f5af7f58c02446",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Thaana",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2018 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 89
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansNKo-Regular.ttf",
+      "bytes": 38352,
+      "sha256": "389f4082894bf1833dc5f140a282496114366b410779fbb16b3486f4660e9313",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans NKo",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D nkoo -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 79
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansTifinagh-Regular.ttf",
+      "bytes": 39208,
+      "sha256": "176233c9dd5649184f3206680debc1a50b411a9229049e0b5d212776af1e2034",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Tifinagh",
+          "style": "Regular",
+          "version": "Version 2.002; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D tfng -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 76
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansCherokee-Regular.ttf",
+      "bytes": 94592,
+      "sha256": "bda37783ba22f62d71a647f5ddce6f8e4b4d6959eba3afd5a7eccbcaaa85f72c",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Cherokee",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D cher -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2016 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 186
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansCanadianAboriginal-Regular.ttf",
+      "bytes": 86372,
+      "sha256": "66b4f453f27d176045bab8e168397ec46322d74306931c807f500eb41c984157",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans CanAborig",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D cans -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2018 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 722
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansAdlam-Regular.ttf",
+      "bytes": 94464,
+      "sha256": "7360a8023487bff116bfde73a070da0f734f837f3056c81b20791b1f2839b7d3",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Adlam",
+          "style": "Regular",
+          "version": "Version 3.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D adlm -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017-2019 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 149
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansVai-Regular.ttf",
+      "bytes": 91684,
+      "sha256": "5f58a9c96639c56ea31f85282084dde6d658ede746e3eec64869212fc25a393a",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Vai",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D vaii -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 304
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansBamum-Regular.ttf",
+      "bytes": 228920,
+      "sha256": "5de881d26f4913c63f81db283bcffaafe1f0775d1be8072f39a4f8c0c09b90aa",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Bamum",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D bamu -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 661
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansLisu-Regular.ttf",
+      "bytes": 12860,
+      "sha256": "243c09079c08619a4b11621f07027c10e5eb067b7e2e217537ae5e01be79e21b",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Lisu",
+          "style": "Regular",
+          "version": "Version 2.100; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D lisu -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 58
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansYi-Regular.ttf",
+      "bytes": 182808,
+      "sha256": "f621f514dce105a414ef7373a36b54ccc8d760a6319ad7133695fb42a1f02552",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Yi",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 1250
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansJavanese-Regular.ttf",
+      "bytes": 127040,
+      "sha256": "faff63a3ea4c5a882508d85935f02e4f80e923551d4716e27706dd3c6cb07d67",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Javanese",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2018 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 99
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansSundanese-Regular.ttf",
+      "bytes": 22888,
+      "sha256": "eff2b13deacba332b2ddbfebee7dce77cb999d99fb2e342d6027fce71902669b",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Sundanese",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D sund -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 82
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansBalinese-Regular.ttf",
+      "bytes": 92364,
+      "sha256": "97d94b44707d68adde5d0e766536c016e635b64006a4b2dcf4ed79959480f095",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Balinese",
+          "style": "Regular",
+          "version": "Version 2.002",
+          "copyright": "Copyright 2020 Google LLC. All rights reserved",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 130
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansBatak-Regular.ttf",
+      "bytes": 15104,
+      "sha256": "d7913a9681f6bf3f63a3c87f34c87d20bcf8515aceee9c081dc2851292f4efa4",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Batak",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 64
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansBuginese-Regular.ttf",
+      "bytes": 7200,
+      "sha256": "9572118c512044497fa06cf5ae5209a245295a21746dac2f34ec5fad094f66c0",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Buginese",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 39
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansCham-Regular.ttf",
+      "bytes": 30532,
+      "sha256": "b87ef0181fb1f11da6a36846724a299143d73d8afffd238018fd91291beb87bb",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Cham",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 104
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansMeeteiMayek-Regular.ttf",
+      "bytes": 17152,
+      "sha256": "1e6633879d76284a1fb2e361205341a788313afdd6b1dfb8b7bbe77e27164393",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans MeeteiMayek",
+          "style": "Regular",
+          "version": "Version 2.001",
+          "copyright": "Copyright 2020 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 87
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansOlChiki-Regular.ttf",
+      "bytes": 15172,
+      "sha256": "3dc960a2d687b0e4fe03e5c2eb88be2a3d244c4509029277ca2be248787d33b3",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Ol Chiki",
+          "style": "Regular",
+          "version": "Version 2.002; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D olck -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2019 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 53
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansHanifiRohingya-Regular.ttf",
+      "bytes": 27192,
+      "sha256": "abcfae7a163727e1d4507bc2603b2122cc3fbb9d5e14a8f5c11c89222de281f2",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Hanifi Rohingya",
+          "style": "Regular",
+          "version": "Version 2.100; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2020 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": null,
+          "license_url": null,
+          "mapped_codepoints": 65
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansTaiTham-Regular.ttf",
+      "bytes": 95316,
+      "sha256": "d3065a143eb21f13406307602940b9f7cd20e935a1e20a829f9867b152056714",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Tai Tham",
+          "style": "Regular",
+          "version": "Version 2.001",
+          "copyright": "Copyright 2020 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 135
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansTaiViet-Regular.ttf",
+      "bytes": 30980,
+      "sha256": "b7e6d86488e34d9bbc3c6ba55097d8b1a16325650af50a7242df2c2a4a663ced",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Tai Viet",
+          "style": "Regular",
+          "version": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D tavt -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 82
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansNewTaiLue-Regular.ttf",
+      "bytes": 17024,
+      "sha256": "53005c3e1b61c5d3002510479144867a5a1370a32a78c5cf374f9a6dd576cf9b",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans NewTaiLue",
+          "style": "Regular",
+          "version": "Version 2.000",
+          "copyright": "Copyright 2020 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 90
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansMiao-Regular.ttf",
+      "bytes": 36276,
+      "sha256": "0568835387144b9d03b5b5b3694859766fedd59f7c17b3e1036fa944fc9a9298",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Miao",
+          "style": "Regular",
+          "version": "Version 2.001",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 154
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSerifTibetan-Regular.ttf",
+      "bytes": 595476,
+      "sha256": "5893c1e0aefb250bcbeff5c0f8ee4bb27cd3dc19b47d14954b154b094e10ee63",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Serif Tibetan",
+          "style": "Regular",
+          "version": "Version 2.001",
+          "copyright": "Copyright 2018 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 223
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansSymbols-Regular.ttf",
+      "bytes": 258148,
+      "sha256": "24b615ceb7d50a2c09060664ca9e24a160c9beb6bfca0563e8359369a4bc0993",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Symbols",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2016 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google LLC.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 840
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansSymbols2-Regular.ttf",
+      "bytes": 656852,
+      "sha256": "876598db5f1e3bef2bc77c4d94c5b0d5d2c1620be4878a06f18fb5434e331688",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Symbols2",
+          "style": "Regular",
+          "version": "Version 2.003",
+          "copyright": "Copyright 2017 Google Inc. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 2655
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansMath-Regular.ttf",
+      "bytes": 590896,
+      "sha256": "8242bd1e55368b27e32455260754cf9aa58f3ad7ea80664b66c21f1b09910d6c",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-fonts",
+      "license_notice": "licenses/Noto-core-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans Math",
+          "style": "Regular",
+          "version": "Version 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X \"\"",
+          "copyright": "Copyright 2018 Google LLC. All Rights Reserved.",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 2472
+        }
+      ]
+    },
+    {
+      "path": "fallbacks/NotoSansCJK-Bold.ttc",
+      "bytes": 20050760,
+      "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+      "license": "OFL-1.1",
+      "upstream": "https://github.com/notofonts/noto-cjk",
+      "license_notice": "licenses/Noto-CJK-copyright.txt",
+      "modifications": "None; byte-for-byte source copy, with OpenType shaping tables intact.",
+      "faces": [
+        {
+          "index": 0,
+          "family": "Noto Sans CJK JP",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 1,
+          "family": "Noto Sans CJK KR",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 2,
+          "family": "Noto Sans CJK SC",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 3,
+          "family": "Noto Sans CJK TC",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 4,
+          "family": "Noto Sans CJK HK",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 5,
+          "family": "Noto Sans Mono CJK JP",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 6,
+          "family": "Noto Sans Mono CJK KR",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 7,
+          "family": "Noto Sans Mono CJK SC",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 8,
+          "family": "Noto Sans Mono CJK TC",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        },
+        {
+          "index": 9,
+          "family": "Noto Sans Mono CJK HK",
+          "style": "Bold",
+          "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+          "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+          "trademark": "Noto is a trademark of Google Inc.",
+          "license_description": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+          "license_url": "http://scripts.sil.org/OFL",
+          "mapped_codepoints": 44810
+        }
+      ]
+    }
+  ],
+  "license_files": [
+    {
+      "path": "licenses/Noto-core-copyright.txt",
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "licenses/Noto-CJK-copyright.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "licenses/OFL-1.1.txt",
+      "bytes": 4013,
+      "sha256": "2deb7bd24a610e8dc601ac5581034de7cfec6d3d7da963a09b3b1b359ca29eda"
+    },
+    {
+      "path": "licenses/NOTICE.txt",
+      "bytes": 4225,
+      "sha256": "1c98df231a8014142d5a41ac4e7a1cb3aaaf7ef30416a44057bcd591d01c9c5c"
+    }
+  ],
+  "sample_texts": {
+    "path": "sample-texts.json",
+    "bytes": 6456,
+    "sha256": "38d1e1a9cddd292297f51b749d25bd4a6f33e3459a25db2e381fd6266a30e5bb"
+  }
+}

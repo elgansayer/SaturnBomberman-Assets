@@ -1,0 +1,19 @@
+name: Neptune font assets
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  fonts:
+    name: Font bytes, coverage and reproducible source
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - run: python3 -m pip install -r fonts/neptune-arcade/tools/requirements.txt
+      - run: python3 fonts/neptune-arcade/tools/build_arcade.py --check
+      - run: python3 fonts/neptune-arcade/tools/bundle_fallbacks.py --check
+      - run: python3 fonts/neptune-arcade/tools/generate_resources.py --check
