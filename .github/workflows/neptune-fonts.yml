@@ -14,6 +14,7 @@ jobs:
         with:
           persist-credentials: false
       - run: python3 -m pip install -r fonts/neptune-arcade/tools/requirements.txt
+      - run: python3 fonts/neptune-arcade/tools/build_bubble.py --check
       - run: python3 fonts/neptune-arcade/tools/build_arcade.py --check
       - run: python3 fonts/neptune-arcade/tools/bundle_fallbacks.py --check
       - run: python3 fonts/neptune-arcade/tools/generate_resources.py --check

@@ -1,10 +1,10 @@
 [gd_resource type="FontVariation" load_steps=4 format=3]
 
-[ext_resource type="FontFile" path="dist/NeptuneArcade.ttf" id="arcade"]
+[ext_resource type="FontFile" path="dist/NeptuneBubble.ttf" id="arcade"]
 [ext_resource type="FontVariation" path="common_fallbacks.tres" id="common"]
 [ext_resource type="FontVariation" path="cjk_ko.tres" id="cjk"]
 
 [resource]
-resource_name = "Neptune Arcade KR"
+resource_name = "Neptune Bubble KR"
 base_font = ExtResource("arcade")
 fallbacks = Array[Font]([ExtResource("common"), ExtResource("cjk")])

@@ -18,16 +18,16 @@ def main():
     d = ImageDraw.Draw(im)
     small = face('fallbacks/NotoSans-Regular.ttf', 16)
     note = face('fallbacks/NotoSans-Regular.ttf', 14)
-    arcade = face('dist/NeptuneArcade.ttf', 40)
+    arcade = face('dist/NeptuneBubble.ttf', 48)
     d.rectangle((36, 34, 1164, 39), fill=GOLD)
-    d.text((40, 62), 'NEPTUNE ARCADE', font=arcade, fill=GOLD, stroke_width=0)
-    d.text((42, 122), 'Saturn-era menu inspiration / original pixel face + bundled multilingual fallbacks', font=small, fill=MUTED)
+    d.text((40, 62), 'NEPTUNE BUBBLE', font=arcade, fill=GOLD, stroke_width=0)
+    d.text((42, 122), 'Saturn Bomberman-inspired bubble lettering / original outlines + multilingual fallbacks', font=small, fill=MUTED)
     d.rounded_rectangle((36, 164, 1164, 365), radius=8, fill=PANEL, outline=EDGE, width=2)
-    d.text((58, 182), 'PIXEL DISPLAY  /  NATIVE 8 PX GRID', font=small, fill=MUTED)
+    d.text((58, 182), 'ROUNDED BUBBLE DISPLAY  /  SCALABLE OUTLINES', font=small, fill=MUTED)
     for y, text, size, color in [(220,'BATTLE START!  1P  2P  0123456789',24,GOLD),
                                 (266,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',24,WHITE),
                                 (308,'abcdefghijklmnopqrstuvwxyz  ÀÉÖçñü',24,WHITE)]:
-        d.text((58,y),text,font=face('dist/NeptuneArcade.ttf',size),fill=color)
+        d.text((58,y),text,font=face('dist/NeptuneBubble.ttf',size),fill=color,stroke_width=1,stroke_fill='#050a18')
     cards = [
         ('JAPANESE / JP', 'ボンバーマン　対戦開始！', 'NotoSansCJK-Bold.ttc',0,'ltr'),
         ('CHINESE / SIMPLIFIED', '炸弹人　开始游戏！', 'NotoSansCJK-Bold.ttc',2,'ltr'),
@@ -48,7 +48,7 @@ def main():
         else:
             d.text((x+20,y+42),text,font=font,fill=WHITE,direction=direction)
     d.text((40,864),'Bundled glyph specimen. Fallback scripts retain Noto outlines; not every Unicode character is covered.',font=note,fill=MUTED)
-    d.text((40,890),'SIL OFL 1.1  /  Godot 4 resources  /  Regional CJK faces  /  Advanced shaping and bidi required',font=note,fill=MUTED)
+    d.text((40,890),'SIL OFL 1.1  /  Godot 4 resources  /  Optional pixel HUD face  /  Regional CJK glyph forms',font=note,fill=MUTED)
     target=ROOT/'preview.png'
     im.save(target,optimize=False)
     print(target)

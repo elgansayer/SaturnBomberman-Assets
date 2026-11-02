@@ -76,18 +76,19 @@ opentype_features={{}}
 
 
 def generated_files(package: Path, prefix: str) -> dict[str, str]:
-    primary = "dist/NeptuneArcade.ttf"
+    primary = "dist/NeptuneBubble.ttf"
+    pixel = "dist/NeptuneArcade.ttf"
     cjk = "fallbacks/NotoSansCJK-Bold.ttc"
     common = "fallbacks/NotoSans-Regular.ttf"
-    if not all((package / path).is_file() for path in (primary, cjk, common)):
-        raise ValueError("Build the primary font and bundle Noto fallbacks first")
+    if not all((package / path).is_file() for path in (primary, pixel, cjk, common)):
+        raise ValueError("Build the bubble and optional pixel fonts, then bundle Noto fallbacks first")
     scripts = sorted(path.relative_to(package).as_posix()
                      for path in (package / "fallbacks").glob("*.ttf")
                      if path.name != "NotoSans-Regular.ttf")
     if not scripts:
         raise ValueError("No bundled script fallbacks found")
-    fonts = [primary, common, cjk, *scripts]
-    result = {path + ".import": import_settings(path, prefix, pixel=path == primary)
+    fonts = [primary, pixel, common, cjk, *scripts]
+    result = {path + ".import": import_settings(path, prefix, pixel=path == pixel)
               for path in fonts}
 
     resources = [common, *scripts]
@@ -117,13 +118,24 @@ variation_face_index = {face_index}
 [ext_resource type="FontVariation" path="cjk_{locale}.tres" id="cjk"]
 
 [resource]
-resource_name = "Neptune Arcade {region}"
+resource_name = "Neptune Bubble {region}"
 base_font = ExtResource("arcade")
 fallbacks = Array[Font]([ExtResource("common"), ExtResource("cjk")])
 '''
         result[f"neptune_arcade_{locale}.tres"] = root
         if locale == "ja":
             result["neptune_arcade.tres"] = root
+    result["neptune_pixel.tres"] = f'''[gd_resource type="FontVariation" load_steps=4 format=3]
+
+[ext_resource type="FontFile" path="{pixel}" id="pixel"]
+[ext_resource type="FontVariation" path="common_fallbacks.tres" id="common"]
+[ext_resource type="FontVariation" path="cjk_ja.tres" id="cjk"]
+
+[resource]
+resource_name = "Neptune Pixel HUD"
+base_font = ExtResource("pixel")
+fallbacks = Array[Font]([ExtResource("common"), ExtResource("cjk")])
+'''
     return result
 
 
