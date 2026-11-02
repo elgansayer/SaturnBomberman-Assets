@@ -1,0 +1,116 @@
+{
+  "experiment_receipt": {
+    "path": "docs/restart/evidence/2026-11-02-film-recovery.json",
+    "repository": "elgansayer/Neptune-Bomberman",
+    "revision": "8e4b778e90bd2d2ac55d51e2a891571ea25e1bf3",
+    "scope": "Recorded completed source-container experiment; not an authenticated original-disc capture.",
+    "sha256": "04ef09f4e8462753788f07ee1b38442c36d279a0589e2f3cb84fc2a01a619546"
+  },
+  "limitations": [
+    "Release identity remains unresolved; 25fps alone does not identify PAL.",
+    "No source-disc authentication, emulator execution, game-trigger mapping, final playback synchronization or Godot fidelity established."
+  ],
+  "private_experiment_artifacts": [
+    "audio.s8",
+    "video-run2.framehash",
+    "ffmpeg-audio.s8",
+    "ffmpeg-wave-roundtrip.s8"
+  ],
+  "published": {
+    "audio.wav": {
+      "bytes": 4417100,
+      "sha256": "35c5bd879b4e27b9364fea8b09895f2539a73cc0f1cee014c7ee49a144d3e53c"
+    },
+    "report.json": {
+      "bytes": 2268,
+      "sha256": "a43115d4b40670c97f0f0ccc6480be4361fdbdd702b065bbb40a6efa624fbb13"
+    },
+    "sample-table.json": {
+      "bytes": 728703,
+      "sha256": "8521f9ea098a4d9cdf451156f1c97c19abb7af2ff6ca87965f97b035de4da7f6"
+    },
+    "video-run1.framehash": {
+      "bytes": 280665,
+      "sha256": "4bbe13fbcce5fae84c3990066e670b908e8bf98b033711b715813671634516d9"
+    }
+  },
+  "recorded_external_validation": {
+    "all_ffprobe_packet_pts_durations_and_keyframes_match_stab": true,
+    "ffmpeg_pcm_s8_sha256": "81918289f4d8fe0f299fa3dc32b85b29ba491fc175d00699b948269369e74364",
+    "ffprobe": {
+      "format": {
+        "duration": "100.160000"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "duration": "4.173333",
+          "index": 0,
+          "r_frame_rate": "25/1",
+          "time_base": "1/600"
+        },
+        {
+          "codec_type": "audio",
+          "duration": "100.160000",
+          "index": 1,
+          "r_frame_rate": "0/0",
+          "time_base": "1/22050"
+        }
+      ]
+    },
+    "ffprobe_stream_duration_used_as_timing_oracle": false,
+    "first_frame": "0,          0,          0,        1,   153600, ec14bdeabe1338960016c32cd5f3e467beb02e15bd7bdd035bc1e50b899b4db3",
+    "last_frame": "0,       2503,       2503,        1,   153600, 81e85dd30d6fa7fe190a4b2826d533a3945df895b24fc0b22fc8968dae662a41",
+    "pcm_matches_all_samples": true,
+    "two_video_framehash_runs_identical": true,
+    "video_decoded_frames": 2504,
+    "video_framehash_sha256": "4bbe13fbcce5fae84c3990066e670b908e8bf98b033711b715813671634516d9",
+    "wave_decodes_to_same_pcm": true
+  },
+  "recorded_negative_controls": {
+    "changed_packet_tick_detected": true,
+    "changed_recovered_audio_bit_detected": true,
+    "one_tick_duration_drift_rejected": true,
+    "overlapping_packet_rejected": true,
+    "truncated_payload_rejected": true,
+    "unsupported_version_rejected": true,
+    "wrong_planar_passthrough_detected": true
+  },
+  "regeneration": {
+    "executables": {
+      "ffmpeg": {
+        "executable_sha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+        "version": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "ffprobe": {
+        "executable_sha256": "cefc5f81c0b18429cdbf8fa5a89e1e9c759235e10f93f9b329ff1b2fdff26f46",
+        "version": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers"
+      }
+    },
+    "recipe": "See ../README.md; retain exact input identity and run into a fresh private directory.",
+    "repository": "elgansayer/Neptune-Bomberman",
+    "revision": "8e4b778e90bd2d2ac55d51e2a891571ea25e1bf3",
+    "tool": "tools/saturn_film/validate_real.py",
+    "tool_sources": {
+      "__init__.py": "601f7f5fb1fec4893d688f0a5a02982381003ebf9d8e6dcf892a91d95d2839c7",
+      "check.py": "a4d202d6c511772a2499be051dad883e81dd93b443855861311bfb55f7341c5b",
+      "cli.py": "e62a7883e9114d7e00ec244d52ceeff5887fb77d0e848a4f73e4f145342d5809",
+      "film.py": "25d578650489b72b6a89c58d9ea36c3b794e87bedf0e1249684c3b0515a0ec01",
+      "test_film.py": "4caa93da2d5bf026b4e2ccc827911a33dcb58a8ed0286dec332651a9c705a8ad",
+      "validate_real.py": "7f0d4197aaddcc143c44c1744e584d2f169fb6a8603073f7448104d2782641dc"
+    }
+  },
+  "repeatability_scope": "Two FFmpeg decodes matched in the retained experiment. This publication validator checks supplied hashes and does not rerun FFmpeg.",
+  "schema": "neptune.private-film-publication.v1",
+  "selection": "WAV preserves every native signed-8 PCM sample reversibly; source-oriented packet map, extraction report and one complete decoded-frame hash log are published. Redundant PCM and repeat-run logs remain private.",
+  "source": {
+    "bytes": 27735108,
+    "lineage": "prior-assets-unresolved-release",
+    "path": "audio/rips/BOMSS1.CPK",
+    "repository": "elgansayer/SaturnBomberman-Assets",
+    "revision": "445114300594db707c1085d8b6b33d50218cd582",
+    "sha256": "c070db915f55f821e5ff3e7d008723a5eebdd018a9faa26d7a60f7f0efdb35a3"
+  }
+}
