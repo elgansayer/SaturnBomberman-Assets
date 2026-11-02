@@ -1,0 +1,77 @@
+{
+  "accounting": {
+    "header_bytes": 52864,
+    "packet_bytes": 32149192,
+    "packet_table_sha256": "3ef90cb4bd10dacd6ca7d46ee25ee51157be57513e6ad3bc472146b4728cc81f",
+    "packets": 3300,
+    "unaccounted_bytes": 0
+  },
+  "artifacts": {
+    "audio.s8": {
+      "bytes": 5018584,
+      "sha256": "8508c5d0ec61be134fbebfe21c94b1355ba469a86b50b477b108a92d27328fc2"
+    },
+    "audio.wav": {
+      "bytes": 5018628,
+      "sha256": "fc005cd69ffc162a4475ae7b407d0407f18576d2288e2080f9d1cdb28bfcc340"
+    },
+    "sample-table.json": {
+      "sha256": "3ef90cb4bd10dacd6ca7d46ee25ee51157be57513e6ad3bc472146b4728cc81f"
+    }
+  },
+  "audio": {
+    "channels": 2,
+    "duration_seconds": {
+      "denominator": 11025,
+      "numerator": 1254646
+    },
+    "packets": 455,
+    "pcm_bytes": 5018584,
+    "pcm_s8_sha256": "8508c5d0ec61be134fbebfe21c94b1355ba469a86b50b477b108a92d27328fc2",
+    "recovered_format": "signed-8-interleaved",
+    "sample_frames": 2509292,
+    "sample_rate_hz": 22050,
+    "source_format": "signed-8-planar-per-packet"
+  },
+  "audio_minus_video_seconds": {
+    "denominator": 11025,
+    "numerator": 1
+  },
+  "format": "Sega FILM 1.04",
+  "limitations": [
+    "Prior asset container; release not authenticated against a supplied disc.",
+    "Cinepak packets/timing inspected; pixels require an external decoder.",
+    "PCM samples recovered; game trigger mapping and SCSP behaviour remain open.",
+    "No emulator, gameplay, hardware accuracy or Neptune parity established."
+  ],
+  "schema": "neptune.saturn-film-recovery.v1",
+  "source": {
+    "bytes": 32202056,
+    "lineage": "prior-assets-unresolved-release",
+    "pinned_usa_or_japan_original": false,
+    "release_identity": "unresolved",
+    "sha256": "10f6edcdb39593c7c859f4faf564e4f66b5c0600567f79a9d81a570cd2634bf8"
+  },
+  "video": {
+    "average_frames_per_second": {
+      "denominator": 1,
+      "numerator": 25
+    },
+    "bits_per_pixel": 24,
+    "clock_hz": 600,
+    "codec": "cvid",
+    "compressed_packets_decoded_to_pixels": false,
+    "duration_seconds": {
+      "denominator": 5,
+      "numerator": 569
+    },
+    "duration_ticks_histogram": {
+      "24": 2845
+    },
+    "end_pts_ticks": 68280,
+    "frames": 2845,
+    "height": 160,
+    "start_pts_ticks": 0,
+    "width": 320
+  }
+}

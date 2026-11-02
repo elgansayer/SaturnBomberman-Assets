@@ -13,3 +13,5 @@ jobs:
         with:
           python-version: '3.13'
       - run: python3 tools/validate_saturn_captures.py
+      - name: Verify FILM publication against every source PCM sample and packet
+        run: python3 tools/validate_film_recovery.py --negative-controls
